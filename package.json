@@ -4,6 +4,9 @@
   "description": "The Agenda PWA for your Conference",
   "version": "0.1.0",
   "author": "StackTinkers",
+    "scripts": {
+    "preinstall": "SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=x64 --platform=linux --libc=glibc sharp"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
